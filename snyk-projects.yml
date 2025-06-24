@@ -1,0 +1,5 @@
+projects:
+  - name: spring-boot-template
+    branch: main
+  - name: products-search-api
+    branch: main
