@@ -14,7 +14,7 @@ def list_projects():
     return [proj["attributes"]["name"] for proj in resp.json()["data"]]
 
 def import_project(repo, branch):
-    url = f"{SNYK_API}/rest/orgs/38bc7259-fb9b-4413-b69a-741f25d5d5bf/integrations/be0561b8-5c07-4ae4-853e-5acaf59967ea/import"
+    url = f"{SNYK_API}/v1/orgs/38bc7259-fb9b-4413-b69a-741f25d5d5bf/integrations/be0561b8-5c07-4ae4-853e-5acaf59967ea/import"
     payload = {
         "target": {
             "name": repo,
