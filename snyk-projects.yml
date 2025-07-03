@@ -1,3 +1,6 @@
 projects:
   - name: spring-boot-template
     branch: main
+
+  - name: "products-service"
+    branch: main
