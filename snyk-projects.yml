@@ -3,3 +3,6 @@ projects:
     branch: main
   - name: nodejs-template
     branch: main
+
+  - name: "products-service"
+    branch: main
