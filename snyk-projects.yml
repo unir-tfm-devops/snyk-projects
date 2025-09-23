@@ -1,8 +1,5 @@
 projects:
   - name: spring-boot-template
     branch: main
-  - name: nodejs-template
-    branch: main
-
-  - name: "bank-service"
+  - name: nodej-template
     branch: main
